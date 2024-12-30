@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio - Anita Kumari</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2476ae873e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/My-Logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Designer/Developer</p>
+        <h1 class="mainText">Hi, My name is <span class="red">Anita</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </h1>
+        <a href="images/Anita Kumari_ Resume.doc" download class="btn btn2" id="myResume">Download CV</a>
+      </div>
+    </div>
+  </div>
+
+<!--------------------------About Me-------------------->
+  <div id="about">
+    <div class="container">
+       <div class="row">
+         <div class="about-col-1">
+          <img src="images/myPhoto.jpeg" alt="User Image">
+         </div>
+         <div class="about-col-2">
+          <h1 class="sub-tittle">About Me</h1>
+          <p>I am a passionate front-end development enthusiast with a strong foundation in HTML, CSS, and JavaScript. With a strong passion for problem-solving and an innate curiosity to learn, I am dedicated to build engaging & user-friendly web experiences. Before diving into web development, I earned a master’s degree in Human Resources and spent nearly five years working as a recruiter, honing my interpersonal skills and understanding of diverse needs. This unique combination of experiences equips me with a creative yet structured approach to tackling challenges and continuously growing as a developer. Now, I’m excited to blend my past experience with my new skills to craft meaningful digital experiences.</p>
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>People & Process Developement</span><br>Active involvement in talent aquisition and administration</li> 
+              <li><span>People Management</span><br>Web App Deve lopment</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023 - 2024</span><br>Talent Acquisition Coordinator at H&M AB, Stockholm</li>
+              <li><span>Feb 2023 - June 2023</span><br>HR Administrator at Foodora AB, Stockholm</li>
+              <li><span>2011 - 2014</span><br>Technical Recruiter at CareerNet Consulting, India</li> 
+              <li><span>2010 - 2011</span><br>Tritium Consulting</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Aug 2024 - Till Now</span><br>Front-End-Developement at Hyper Island, Stockholm</li>
+              <li><span>2008 - 2010</span><br>Masters in Management(PGDM) at NHLI, India</li>
+              <li><span>2004 - 2008</span><br>B.Sc(Bachelor in science) at MJK college, India</li> 
+              <li><span>2002 - 2004</span><br>10+2 at St. Xavier's higher secondary school, India</li>
+              <li><span>2000 - 2002</span><br>10th board at St. Teresa girls high school, India</li>
+            </ul>
+          </div>
+         </div>
+       </div>
+    </div>
+  </div>
+  <!-----------------services------------------------>
+  <section id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Web Design</h2>
+          <p>Creating responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+          <!----<a href="#">learn more</a>------->
+        </div>
+        <div>
+          <h2>Landing Pages</h2>
+          <p>Crafting high-converting landing pages for businesses, startups, or events.</p>
+          <!----<a href="#">learn more</a>------->
+        </div>
+        <div>
+          <h2>Website Optimization</h2>
+          <p>Improving website performance, speed, and SEO readiness for better visibility.</p>
+          <!----<a href="#">learn more</a>------>
+        </div>
+        <div>
+          <h2>Employee Portal</h2>
+          <p>Creating user-friendly employee portals for HR-related tasks like onboarding, training, or benefits management.</p>
+          <!----<a href="#">learn more</a>------->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!--------------Portfolio------------------------>
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" >
+          <div class="layer">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>A simple and interactive game built using HTML, CSS, and JavaScript. The project demonstrates core web development skills, including DOM manipulation and event handling.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" id="tic-tac-toe"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" >
+          <div class="layer">
+            <h3>Library Project</h3>
+            <p>A dynamic library application built with HTML, CSS, and JavaScript, allowing users to create and manage their personal book collection. Features include adding, editing, and deleting books etc. </p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" id="library-project"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" >
+          <div class="layer">
+            <h3>Weather App</h3>
+            <p>A weather application built with HTML, CSS, and JavaScript that provides real-time weather information for various locations. Features include a user-friendly interface and dynamic data fetching through API integration."</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" id="weather-app"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-4.png" >
+          <div class="layer">
+            <h3>Sign-Up Form</h3>
+            <p>A responsive sign-up form created using HTML and CSS, showcasing modern styling techniques. Includes built-in HTML form validation to ensure user input accuracy without JavaScript.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" id="sign-up-form"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-5.png" >
+          <div class="layer">
+            <h3>Admin-Dash Board</h3>
+            <p>A sleek admin dashboard designed using HTML and CSS, featuring a responsive layout. Showcases structured content sections, and modern styling for an organized user interface.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" id="admin-dashbord"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-6.png" >
+          <div class="layer">
+            <h3>Etch a scatch</h3>
+            <p>An interactive Etch-A-Sketch application built with HTML, CSS, and JavaScript. Users can draw on a customizable grid, adjust grid size, and enjoy dynamic styling features for a fun drawing experience.</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square" id="etch-a-sketch"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!----<a href="#" class="btn">See more</a>------>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-sharp-duotone fa-regular fa-share-from-square" id="myemail"></i>anita.kumari1987@yahoo.com</p>
+          <p><i class="fa-solid fa-phone"></i>+46 769623509</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook" id="facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" id="instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+            <a href=""> <i class="fa-brands fa-github" id="github"></i></a>
+          </div>
+          <a href="images/Anita Kumari_ Resume.doc" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Anita.</p>
+    </div>
+
+  </section>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>  
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Designer','people process associate', 'Web Developer'],
+      typeSpeed: 70,
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
