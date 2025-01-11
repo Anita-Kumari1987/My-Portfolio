@@ -53,7 +53,7 @@ project1.addEventListener('click', ()=>{
 
 let project2 = document.querySelector('#library-project');
 project2.addEventListener('click', ()=>{
-  window.open("anita-kumari1987.github.io/My-Library/");
+  window.open("https://anita-kumari1987.github.io/My-Library/");
 });
 
 let project3 = document.querySelector('#weather-app');
@@ -67,7 +67,7 @@ project4.addEventListener('click', ()=>{
 
 let project5 = document.querySelector('#admin-dashbord');
 project5.addEventListener('click', ()=>{
-  window.open("https://anita-kumari1987.github.io/Admin-dashboard/");
+  window.open("https://anita-kumari1987.github.io/Admin-dashboard-Work/");
 });
 
 let project6 = document.querySelector('#etch-a-sketch');
