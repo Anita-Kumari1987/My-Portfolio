@@ -65,9 +65,9 @@ project4.addEventListener('click', ()=>{
   window.open("https://anita-kumari1987.github.io/Sign-up-form/");
 });
 
-let project5 = document.querySelector('#admin-dashbord');
+let project5 = document.querySelector('#restaurant-page');
 project5.addEventListener('click', ()=>{
-  window.open("https://anita-kumari1987.github.io/Admin-dashboard-Work/");
+window.open("https://anita-kumari1987.github.io/Restaurant-Page/");
 });
 
 let project6 = document.querySelector('#etch-a-sketch');
