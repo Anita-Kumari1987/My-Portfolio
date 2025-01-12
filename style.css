@@ -379,7 +379,7 @@ nav .fa-solid{
   background-size: contain;
   background-size: cover;
   background-position: center;
-  background-image:url(images/bg-mini.jpg);
+  background-image:url(images/bg-mini.png);
   }
   .logo {
     height: 2rem;
@@ -439,12 +439,14 @@ nav .fa-solid{
   .about-col-1 img {
     margin-left: 20px;
     height: 89%;
+    margin-top: 0px;
   }
   .about-col-2{
     font-size: 14px;
   }
   .about-col-2 h1{
     font-size: 40px;
+    margin-bottom: 10px;
   }
   .tab-links{
     font-size: 16px;

@@ -48,30 +48,36 @@ function reloadPage() {
 
 let project1 = document.querySelector('#tic-tac-toe');
 project1.addEventListener('click', ()=>{
+  event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Tic-Tac-Toe/");
 });
 
 let project2 = document.querySelector('#library-project');
 project2.addEventListener('click', ()=>{
+  event.preventDefault();
   window.open("https://anita-kumari1987.github.io/My-Library/");
 });
 
 let project3 = document.querySelector('#weather-app');
 project3.addEventListener('click', ()=>{
+  event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Weather-App/");
 });
 let project4 = document.querySelector('#sign-up-form');
 project4.addEventListener('click', ()=>{
+  event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Sign-up-form/");
 });
 
 let project5 = document.querySelector('#restaurant-page');
 project5.addEventListener('click', ()=>{
-window.open("https://anita-kumari1987.github.io/Restaurant-Page/");
+  event.preventDefault();
+  window.open("https://anita-kumari1987.github.io/Restaurant-Page/");
 });
 
 let project6 = document.querySelector('#etch-a-sketch');
 project6.addEventListener('click', ()=>{
+  event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Etch-a-sketch/");
 });
 
