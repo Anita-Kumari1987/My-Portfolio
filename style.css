@@ -88,10 +88,11 @@ nav ul li a:hover{
 
 }
 .about-col-1 img{
-  width: 80%;
+  width: 76%;
   margin-left: 50px;
   border-radius: 15px;
-  height: 94%;
+  height: 579px;
+  margin-top: 80px;
 }
 
 .about-col-2{
