@@ -43,70 +43,77 @@ logoImage.addEventListener("click", () => {
 });
 
 function reloadPage() {
-  window.location = '/index.html'; 
+  window.location = "/index.html";
 }
 
-let project1 = document.querySelector('#tic-tac-toe');
-project1.addEventListener('click', ()=>{
+let project1 = document.querySelector("#tic-tac-toe");
+project1.addEventListener("click", () => {
   event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Tic-Tac-Toe/");
 });
 
-let project2 = document.querySelector('#library-project');
-project2.addEventListener('click', ()=>{
+let project2 = document.querySelector("#library-project");
+project2.addEventListener("click", () => {
   event.preventDefault();
   window.open("https://anita-kumari1987.github.io/My-Library/");
 });
 
-let project3 = document.querySelector('#weather-app');
-project3.addEventListener('click', ()=>{
+let project3 = document.querySelector("#weather-app");
+project3.addEventListener("click", () => {
   event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Weather-App/");
 });
-let project4 = document.querySelector('#sign-up-form');
-project4.addEventListener('click', ()=>{
+let project4 = document.querySelector("#quize-game");
+project4.addEventListener("click", () => {
   event.preventDefault();
-  window.open("https://anita-kumari1987.github.io/Sign-up-form/");
+  window.open("https://silver-daffodil-1041d9.netlify.app/");
 });
 
-let project5 = document.querySelector('#restaurant-page');
-project5.addEventListener('click', ()=>{
+let project5 = document.querySelector("#restaurant-page");
+project5.addEventListener("click", () => {
   event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Restaurant-Page/");
 });
 
-let project6 = document.querySelector('#etch-a-sketch');
-project6.addEventListener('click', ()=>{
+let project6 = document.querySelector("#etch-a-sketch");
+project6.addEventListener("click", () => {
   event.preventDefault();
   window.open("https://anita-kumari1987.github.io/Etch-a-sketch/");
 });
 
-let emailIcon = document.querySelector('#myemail');
-emailIcon.addEventListener('click', ()=>{
+let project7 = document.querySelector("#e-store");
+project7.addEventListener("click", () => {
+  event.preventDefault();
+  window.open("https://maybejod.github.io/e-store/");
+});
+
+let project8 = document.querySelector("#cocktail-recipes");
+project7.addEventListener("click", () => {
+  event.preventDefault();
+  window.open("https://cocktail-kungen.netlify.app/");
+});
+
+let emailIcon = document.querySelector("#myemail");
+emailIcon.addEventListener("click", () => {
   window.location.href = "mailto:anita.kumari1987@yahoo.com";
 });
 
-let facebookIcon = document.querySelector('#facebook');
-facebookIcon.addEventListener('click', ()=>{
+let facebookIcon = document.querySelector("#facebook");
+facebookIcon.addEventListener("click", () => {
   window.open("https://www.facebook.com/anita.kumari.1614");
 });
 
-let instagramIcon = document.querySelector('#instagram');
-instagramIcon.addEventListener('click', ()=>{
+let instagramIcon = document.querySelector("#instagram");
+instagramIcon.addEventListener("click", () => {
   window.open("https://www.instagram.com/anita60682024/");
 });
 
-let linkedinIcon = document.querySelector('#linkedin');
-linkedinIcon.addEventListener('click', ()=>{
+let linkedinIcon = document.querySelector("#linkedin");
+linkedinIcon.addEventListener("click", () => {
   window.open("https://www.linkedin.com/in/anita-kumari-91160723/");
 });
 
-let githubIcon = document.querySelector('#github');
-githubIcon.addEventListener('click', ()=>{
+let githubIcon = document.querySelector("#github");
+githubIcon.addEventListener("click", () => {
   window.open("https://github.com/Anita-Kumari1987");
 });
-
-
-
-
-

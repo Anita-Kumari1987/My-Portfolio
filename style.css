@@ -203,6 +203,17 @@ nav ul li a:hover{
   grid-gap: 50px;
   margin-top: 50px;
 }
+.group-work-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 50px;
+  margin-top: 50px;
+
+}
+.group-work{
+  margin-top: 50px;
+}
 .work{
   border-radius: 10px;
   position: relative;
@@ -431,8 +442,6 @@ nav .fa-solid{
   .about-col-1, .about-col-2{
     flex-basis: 100%;
   }
-  .about-col-1{
-  }
   .about-col-1 p{
     margin-left: 3%;
   }
@@ -466,6 +475,13 @@ nav .fa-solid{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+  }
+  .group-work-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 50px;
     margin-top: 50px;
   }
