@@ -75,10 +75,10 @@ project5.addEventListener("click", () => {
   window.open("https://anita-kumari1987.github.io/Restaurant-Page/");
 });
 
-let project6 = document.querySelector("#etch-a-sketch");
+let project6 = document.querySelector("#hyper-island-journey");
 project6.addEventListener("click", () => {
   event.preventDefault();
-  window.open("https://anita-kumari1987.github.io/Etch-a-sketch/");
+  window.open("https://immerssive-web.netlify.app/");
 });
 
 let project7 = document.querySelector("#e-store");
